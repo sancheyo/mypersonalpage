@@ -1,0 +1,277 @@
+
+body {background-image: url('stars.jpg');
+  background-size: cover;
+}
+    
+    header{ 
+      font-family:'Rockwell';font-size: 20px; text-align: center; color:rgb(32, 229, 193);
+    } 
+
+h2,h3{
+  font-family:'Rockwell'; text-align:center; font-size: 30px; color:rgb(32, 229, 193);}
+
+    
+    /* css skill*/
+    body {
+     font-family: 'Rockwell';
+      background-color: inherit;
+      color:  rgb(32, 229, 193);
+      text-align: center;
+    }
+    
+    .title {
+      text-align: center;
+      letter-spacing: 1px;
+      color: rgb(32, 229, 193);
+    }
+    
+    .skillBox {
+      margin: 20px auto;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+      flex-direction:row;
+    }
+    
+    a {
+      float: left;
+      width: 5%;
+      font-size: 30px;
+      padding-right: 5px;
+    }
+    
+    .ion-social-html5-outline {
+      color: #dd3b2d;
+    }
+    
+    .ion-social-css3-outline {
+      color: #0277bd;
+    }
+    
+    .ion-social-javascript {
+      color: #e5a228;
+      font-size: 180%;
+    }
+    
+    .ion-social-wordpress-outline {
+      color: #008ac1;
+    }
+    
+    .skillBar {
+      width: 95%;
+      height: 35px;
+      margin: 2px auto;
+    }
+    
+    .skillArea {
+      width: 90%;
+      margin-left: 10px;
+      position: relative;
+      left: 11px;
+      top: 7px;
+    }
+    
+    .skillName {
+      text-align:justify;
+      font-size: 12px;
+      margin: 10px;
+      position: relative;
+      top: 5px;
+    }
+    
+    .skill-HTML5{
+      width: 95%;
+      height: 2px;
+      -webkit-animation: Animate-HTML5 3s;
+      animation: Animate-HTML5 3s;
+      background-color: #f70d0d;
+      position: relative;
+      float: left;
+      -webkit-box-sizing: border-box;
+      box-sizing: border-box;
+    }
+    
+    .skill-CSS {
+      width: 85%;
+      height: 2px;
+      -webkit-animation: Animate-CSS 3s;
+      animation: Animate-CSS 3s;
+      background-color: #0ba1af;
+      position: relative;
+      float: left;
+      -webkit-box-sizing: border-box;
+      box-sizing: border-box;
+    }
+    
+    .skill-JS {
+      width: 80%;
+      height: 2px;
+      -webkit-animation: Animate-JS 3s;
+      animation: Animate-JS 3s;
+      background-color: #f0f006;
+      position: relative;
+      -webkit-box-sizing: border-box;
+      box-sizing: border-box;
+      float: left;
+      
+    }
+    
+
+    
+    .skill-WP {
+      width: 90%;
+      height: 2px;
+      -webkit-animation: Animate-WP 3s;
+      animation: Animate-WP 3s;
+      background-color: #0824f6;
+      position: relative;
+      -webkit-box-sizing: border-box;
+      box-sizing: border-box;
+      float: left;
+    }
+    
+    @-webkit-keyframes Animate-HTML5 {
+      from {
+        width: 0;
+      }
+      to {
+        width: 80%;
+      }
+    }
+    
+    @keyframes Animate-HTML5 {
+      from {
+        width: 0;
+      }
+      to {
+        width: 80%;
+      }
+    }
+    
+    @-webkit-keyframes Animate-CSS {
+      from {
+        width: 0;
+      }
+      to {
+        width: 80%;
+      }
+    }
+    
+    @keyframes Animate-CSS {
+      from {
+        width: 0;
+      }
+      to {
+        width: 80%;
+      }
+    }
+    
+    @-webkit-keyframes Animate-JS {
+      from {
+        width: 0;
+      }
+      to {
+        width: 80%;
+      }
+    }
+    
+    @keyframes Animate-JS {
+      from {
+        width: 0;
+      }
+      to {
+        width: 80%;
+      }
+    }
+    
+    
+    @-webkit-keyframes Animate-WP {
+      from {
+        width: 0;
+      }
+      to {
+        width: 80%;
+      }
+    }
+    
+    @keyframes Animate-WP {
+      from {
+        width: 0;
+      }
+      to {
+        width: 80%;
+      }
+    }
+    
+    /* Custom, iPhone Retina */
+    /* Extra Small Devices, Phones */
+    @media only screen and (min-width: 480px) {
+      .ion-social-html5-outline {
+        font-size: 310%;
+      }
+      .ion-social-css3-outline {
+        font-size: 310%;
+      }
+      .ion-social-javascript {
+        font-size: 300%;
+      }
+      .ion-social-wordpress-outline {
+        font-size: 310%;
+      }
+      .skillBar {
+        width: 80%;
+        height: 35px;
+        margin: 10px auto;
+      }
+      .skillArea {
+        margin-left: 10px;
+        position: relative;
+        left: 35px;
+        top: 10px;
+        padding: 5px;
+      }
+      .skillName {
+        font-size: 12px;
+        margin: 35px;
+        position: relative;
+        top: 10px;
+      }
+    }
+    
+    /* Small Devices, Tablets */
+    @media only screen and (min-width: 768px) {
+      .skillBar {
+        width: 75%;
+        margin: 10px auto;
+      }
+      .skillArea {
+        position: relative;
+        left: 35px;
+        top: 10px;
+        padding: 5px;
+      }
+      .skillName {
+        font-size: 12px;
+        margin: 35px;
+        position: relative;
+        top: 10px;
+      }
+    }
+    
+    /* Medium Devices, Desktops */
+    @media only screen and (min-width: 992px) {
+      .skillBar {
+        width: 70%;
+      }
+    }
+    
+    /* Large Devices, Wide Screens */
+    @media only screen and (min-width: 1200px) {
+      .skillBar {
+        width: 65%;
+      }
+    }
+  

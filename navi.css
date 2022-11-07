@@ -1,0 +1,57 @@
+body {
+  background-image: url('stars.jpg');
+   background-size: cover;
+ position:static;
+}
+  header{ 
+    font-family: monospace; text-align: center; color:rgb(32, 229, 193);
+  } 
+  
+/* css for navigation/*
+  /* navigation */
+  .sidenav {
+    height: 100%;
+    width: auto;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgba(11, 10, 11, 0);
+    overflow-x: hidden;
+    padding-top: 20px;
+    font-family:'Rockwell';
+    }
+  
+  .sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    color:rgb(32, 229, 193);
+    display: flex;
+  }
+  
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+  
+  .main {
+         margin-left: 160px; /* Same as the width of the sidenav */
+      font-size: 28px; /* Increased text to enable scrolling */
+      padding: 0px 10px;
+  }
+
+  @media screen and (max-height: 250px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+  /* navigation ends*/
+ 
+  h3,h4 { font-size: 15px; font-family: 'Rockwell'; color: rgb(32, 229, 193);
+  } 
+  p1, p2{font-size: 20in; font-family:'Rockwell'; color:rgb(32, 229, 193); 
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+  

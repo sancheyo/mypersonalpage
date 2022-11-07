@@ -1,0 +1,23 @@
+body {
+  background-image: url('stars.jpg');
+   background-size: cover;
+ position:static;
+}
+/* image oval*/
+
+img {
+    border-radius: 50%;
+  }
+
+  /* page background*/
+    
+    header{ 
+     font-size: 50px; font-family:sans-serif 'Rockwell' ; text-align: center; color: rgb(32, 229, 193);}
+    
+   p{
+      text-align: center; font-family:sans-serif 'Rockwell' ; font-size: 30px; color: rgb(32, 229, 193); }
+  h1,h2{ 
+    text-align: center; font-family:sans-serif 'Rockwell' ; font-size: 30px; color: rgb(32, 229, 193);
+  }
+
+ 
